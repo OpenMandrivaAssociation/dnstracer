@@ -6,7 +6,6 @@ License:        BSD
 Group:		Networking/Other
 URL:		http://www.mavetju.org/unix/general.php
 Source:         http://www.mavetju.org/download/%{name}-%{version}.tar.bz2
-BuildRoot:      %{_tmppath}/%{name}-buildroot
 
 %description
 dnstracer determines where a given Domain Name Server (DNS) gets
