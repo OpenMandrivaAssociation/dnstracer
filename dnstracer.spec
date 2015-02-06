@@ -1,7 +1,7 @@
 Summary:	A tool to trace dns queries
 Name:		dnstracer
 Version:	1.9
-Release:	%mkrel 3
+Release:	4
 License:	BSD
 Group:		Networking/Other
 URL:		http://www.mavetju.org/unix/general.php
