@@ -17,7 +17,6 @@ the servers which know the data.
 %setup -qn %{name}
 
 %build
-%configure
 %make_build
 
 %install
