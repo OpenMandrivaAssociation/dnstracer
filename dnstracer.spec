@@ -14,7 +14,7 @@ its information from, and follows the chain of DNS servers back to
 the servers which know the data.
 
 %prep
-%setup -q
+%setup -qn %{name}
 
 %build
 %configure
