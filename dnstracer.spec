@@ -1,3 +1,5 @@
+%define _empty_manifest_terminate_build 0
+
 Summary:	A tool to trace dns queries
 Name:		dnstracer
 Version:	1.10
@@ -29,6 +31,7 @@ install -m 755 -d "%{buildroot}/%{_mandir}/man8"
 %doc CHANGES README
 %{_bindir}/*
 %{_mandir}/*/*
+%{_mandir}/man8/%{name}.8*
 
 
 
