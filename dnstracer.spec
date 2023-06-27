@@ -20,11 +20,9 @@ the servers which know the data.
 %make_build
 
 %install
-[ "%{buildroot}" != "/" ] && rm -rf %{buildroot}
-%make_install
-
-%clean
-[ "%{buildroot}" != "/" ] && rm -rf %{buildroot}
+install -m 755 -d "%{buildroot}/%{_bindir}" 
+install -m 755 -d "%{buildroot}/%{_mandir}/man8" 
+%make_install PREFIX="%{buildroot}/%{_prefix}" MANPREFIX="%{buildroot}/%{_mandir}/man8"
 
 %files
 %defattr(-,root,root)
