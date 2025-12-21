@@ -10,6 +10,7 @@ URL:		https://www.mavetju.org/unix/general.php
 Source:		http://www.mavetju.org/download/%{name}-%{version}.tar.bz2
 BuildRoot:	%{_tmppath}/%{name}-buildroot
 
+BuildRequires:	make
 %description
 dnstracer determines where a given Domain Name Server (DNS) gets
 its information from, and follows the chain of DNS servers back to
